@@ -1,0 +1,11 @@
+encoding: utf-8
+auto: true
+
+markdown: rdiscount
+pygments: true
+permalink: /:title
+
+title: 雷啸的博客
+url: http://thundear.com
+feed: /atom.xml
+author_info: <a href="http://thundear.com/">Thundear</a>

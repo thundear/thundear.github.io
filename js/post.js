@@ -201,4 +201,11 @@ $(document).ready(function(){
         $("head").append("<link rel='stylesheet' type='text/css' href='/css/css3-ani.css'/>");
         $.getScript('/js/css3-ani.js',function(){});
     }
+
+    WB2.anyWhere(function(W){
+        W.widget.followButton({
+            'id': "wb_follow_btn",   //关注按钮容器ID
+            'nick_name': 'thundear'   //用户昵称
+        });
+    });
 });
